@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+	<style>
+		label {
+			color:tomato;
+		}
+	</style>
+</head>
+<body bgcolor="green">
+<center> <h1>Form</h1>
+<form><table border="5" bgcolor="skyblue"><tr><td>
+	<table>
+		<tr>
+			<td>
+				<label for="name">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td><input type="text"required placeholder="Abhi" id="name"></td>
+		</tr>
+		<tr>
+			<td>
+				<label for="pass">password</label>
+			</td>
+			<td><input type="password" required placeholder="1234" id="pass"></td>
+		</tr>
+		<tr>
+			<td>
+				<label for="email">Email</label>
+			</td>
+			<td><input type="email" required placeholder="Abhi@gmail" id="email"></td>
+		</tr>
+		<tr>
+			<td>
+				<label for="dob">DOB</label>
+			</td>
+			<td><input type="Date" value="02/4/2003" id="dob"></td>
+		</tr>
+		<tr>
+			<td>
+				<label for="pas">conf_password</label>
+			</td>
+			<td><input type="password" value="1234" id="pas"></td>
+		</tr>
+		<tr>
+			<td>
+				<label for="add">Address</label>
+			</td>
+			<td><textarea required placeholder="Jaunpur" id="add" rows="5" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<td>
+				<label for="gender">Gender</label>
+			</td>
+			<td><input type="radio" value="1234" id="male"name="1">
+				<label for="male">Male</label>
+			<input type="radio" value="1234" id="Female"name="1">
+			<label for="Female">Female</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="add">Course</label>
+			</td>
+			<td><input type="checkbox" id="m"check>
+				<label for="m">c</label>
+			<input type="checkbox"id="F">
+			<label for="F">java</label>
+			<input type="checkbox"id="e">
+			<label for="e">python</label></td>
+			</td>
+		</tr><tr>
+			<td>
+				<label for="name">Test Center&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td><select name="address">
+				<option value="prayagraj">prayagraj</option>
+				<option value="Jaunpur">Jaunpur</option>
+				<option value="Pratapgarh">Pratapgarh</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>
+				<label for="pass">upload profile picture&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			</td>
+			<td><input type="file" value="1234" id="p"></td>
+		</tr>
+		<tr>
+			<td>
+				<input type="submit" value="Register">
+			</td>
+			<td><input type="reset" value="Clear"></td>
+		</tr>
+	</table></td></tr>
+	</table>
+</form>
+</center>
+</body>
+</html>
