@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.header{
+    position: relative;
+    min-height:60vh;
+    background:url("./wal.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+}
+.container{
+    max-width: 1200;
+    margin: auto;
+    width: 90%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    min-height: 8vh;
+    align-items: center;
+}
+.nav_item{
+    width: 40%;
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.headline{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn_headline{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.todo_section{
+    margin-top: 4rem;
+    text-align: center;
+    
+}
+.form_todo{
+    /* border: 2px solid red; */
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.form_todo input{
+    min-height: 100%;
+}
+.form_todo input[type="text"]
+{
+    width: 78%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.form_todo input[type="submit"]
+{
+    width: 20%;
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+}
+.section_sign{
+    margin-top: 4rem;
+    text-align: center;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.sign{
+    /* display: block; */
+    max-width: 800px;
+    width: 95%;
+    text-align: left;
+    margin: auto;
+}
+.sign input{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+}
+.sign label{
+    display: block;
+}
+.form-group{
+    margin-top: 1rem;
+}
+.sign textarea{
+    width: 100%;
+}
+.sign-btn{
+    background-color: rgb(74, 87, 160);
+    color: antiquewhite;
+    padding: 1rem 2rem;
+    display:block;
+    margin: auto;
+}
+#main_heading{
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
