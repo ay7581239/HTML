@@ -1,0 +1,12 @@
+.div{
+    border: 1px solid black;
+    max-width: 100px;
+    width: 200px;
+    height: 300px;
+    overflow: scroll;
+}
+.min{
+    border: 1px solid black;
+    min-width: 50;
+    min-height: 1;
+}

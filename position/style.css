@@ -1,0 +1,19 @@
+div{
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: aqua;
+    display: inline-block;
+}
+#a{
+    position: static ;
+    
+}
+#b{
+    position: relative;
+    left: 50px;
+    top: 70px;
+}
+#c{
+    position:fixed
+}
