@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(97, 207, 207);
+}
+.container{
+    /* height: 100vh;
+    width: 100vw; */
+    background-color: rgb(3, 5, 5);
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    /* border: 1px solid black; */
+    height:fit-content;
+    margin-top: 2px;
+}
+button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0%;
+    border: hidden;
+    margin-bottom: 3px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: rgb(113, 36, 10);
+    margin-left: 5px;
+}
