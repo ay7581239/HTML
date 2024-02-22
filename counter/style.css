@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(180, 244, 245);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: blue;
+    font-size: 50px;
+}
+span{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(17, 107, 20);
+    font-size: 90px;
+}
+.btn{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn:hover{
+    border: 2px solid rgb(109, 214, 221);
+}
