@@ -31,3 +31,7 @@ body{
 .btn:hover{
     border: 2px solid rgb(0, 81, 255);
 }
+#span{
+    color: blue;
+    text-shadow:rgba(176, 29, 29, 0.505) 3px 10px 15px;
+}
