@@ -3,9 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>navigation bar</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    
+    <header id="nav-menu">
+        <div class="container">
+            <div class="nav-start">
+                <a href="239.jpg" class="logo">
+                    <img src="239.jpg" alt="logo" height="35" width="35">
+                </a>
+                <nav class="menu">
+                    <ul class="menu-bar">
+                        <li>
+                            <button class="nav-link dropdown-btn" data-dropdown="dropdown1" aria-expanded="false">
+                                Browser
+                                <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                            </button>
+                            <div class="dropdown" id="dropdown1">
+                                <ul>
+                                    <li>
+                                        <a class="dropdown-link" href="#best-of-day">
+                                            <img src="239.jpg" class="icon" alt="" height="35" width="35"/>
+                                            <div>
+                                                <span class="dropdown-link-title">Best of the day</span>
+                                                <p>shorts featured today by curators</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link" href="#featured-streams">
+                                            <img src="239.jpg" class="icon" alt="" height="35" width="35"/>
+                                            <div>
+                                                <span class="dropdown-link-title">Featured Strems</span>
+                                                <p>leading creatives livestreams</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link" href="#subscriptions">
+                                            <img src="239.jpg" class="icon" alt="" height="35" width="35"/>
+                                            <div>
+                                                <span class="dropdown-link-title">Subscriptions</span>
+                                                <p>Gain exclusive access</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link" href="#creative-feed">
+                                            <img src="239.jpg" class="icon" alt="" height="35" width="35"/>
+                                            <div>
+                                                <span class="dropdown-link-title">Creative Feed</span>
+                                                <p>See trehding creations</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                    
+                                <ul>
+                                    <span id="apps" class="dropdown-link-title">Browse by apps</span>
+                                    <li>
+                                        <a class="dropdown-link" href="#adobe-xd">
+                                            <img src="239.jpg" alt="" height="30" width="30">
+                                            Adobe XD
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link" href="#after-effect">
+                                            <img src="239.jpg" alt="" height="30" width="30">
+                                            After effect
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link" href="#sketch">
+                                            <img src="239.jpg" alt="" height="30" width="30">
+                                           Sketch
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link" href="#indesign">
+                                            <img src="239.jpg" alt="" height="30" width="30">
+                                            Indesign
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link" href="#figma">
+                                            <img src="239.jpg" alt="" height="30" width="30">
+                                            Figma
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <button class="nav-link dropdown-btn" data-dropdown="dropdown2" aria-expanded="false">
+                                Discover
+                                <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                            </button>
+                            <div class="dropdown" id="dropdown2">
+                                <ul aria-labelledby="categories-title">
+                                    <span id="categories-title" class="dropdown-link-title">Browse categories</span>
+                                    <li>
+                                        <a class="dropdown-link" href="#branding">Branding</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link" href="#illusterations">Illusteration</a>
+                                    </li>
+                                </ul>
+                                <ul aria-labelledby="download-tittle">
+                                    <span id="download-title" class="dropdown-link-title">Download App</span>
+                                    <li>
+                                      <a class="dropdown-link" href="#mac-windows">MacOS & Windows</a>
+                                    </li>
+                                    <li>
+                                      <a class="dropdown-link" href="#linux">Linux</a>
+                                    </li>   
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <button class="nav-link dropdown-btn" data-dropdown="dropdown3" aria-expanded="false">
+                                Jobs
+                                <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                            </button>
+                            <div id="dropdown3" class="dropdown">
+                                <ul>
+                                    <li><span class="dropdown-link-title">Software</span></li>
+                                    <li>
+                                        <a class="dropdown-link" href="#frontend">Frontend</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link" href="#backend">Backend</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link" href="#ai-ml">AI/ML</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link" href="#mobile-dev">Mobile Development</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <span class="dropdown-link-title">Others</span>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link" href="#ui-ux">UI/UX</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-link" href="#writing">Technical Writing</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a class="nav-link" href="#Livestrem">Livestream</a></li>
+                        <li><a class="nav-link" href="#About">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="nav-end">
+                <div class="right-container">
+                    <form action="#" class="search">
+                         <input type="search" placeholder="search">
+                        <i class='bx bx-search' aria-hidden="true"></i>
+                    </form>
+                    <a href="#">
+                        <img src="239.jpg" alt="profile" height="30" width="30">
+                    </a>
+                    <button class="btn btn-primary">Create</button>
+                 </div>
+            </div>
+            <button id="hamburger" aria-expanded="false">
+                <i class="bx bx-menu" aria-hidden="true"></i>
+              </button>
+        </div>
+    </header>
 </body>
 </html>
